@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Wars Singleplayer</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <div id="game-div">
+    <div id="score-div"></div>
+    <div id="button-div"></div>
+    <div id="guide-div"></div>
+    <div id="game-window-div">
+    <div id="problem-window-div"></div>
+    <div id="guide-div1"></div>
+    </div>
+  </div>
+  <div hidden>
+    <button onclick="startGame()">Start Game</button>
+    <button onclick="spawnProblem()">Spawn Bit</button>
+    <button onclick="spawnDecProblem()">Spawn Dec</button>
+    <button onclick="deleteProblemB()">Delete</button>
+    <button onclick="checkProblemResultArray()">Check Result Array</button>
+    <button onclick="stopGame()">Stop Game</button>
+    <div id="testarea"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
