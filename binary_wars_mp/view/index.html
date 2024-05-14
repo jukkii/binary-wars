@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Wars Singleplayer</title>
+  <link rel="stylesheet" href="/css/style_mp.css">
+</head>
+<body>
+<div id="game-container">
+        <div id="menu-div">
+          <div class="menu-button-div">
+            <button class="menu-button" onclick="showSingleplayer()">
+            Binary Wars SP
+            </button>
+          </div>
+          <div class="menu-button-div">
+            <button class="menu-button" onclick="showMultiplayer()">
+            Binary Wars MP
+            </button>
+          </div>
+        </div>
+  <div id="sp-game-div">
+    <div id="score-div"></div>
+    <div id="button-div"></div>
+    <div id="guide-div"></div>
+    <div id="game-window-div">
+    <div id="problem-window-div"></div>
+    <div id="guide-div1"></div>
+    </div>
+  </div>
+  <div id="highscoreSP-div">
+    Highscore:<br><br>
+    Loading..
+  </div>
+</div>
+  <script src="https://cdn.ably.com/lib/ably.min-1.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>

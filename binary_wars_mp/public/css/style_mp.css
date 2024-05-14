@@ -1,0 +1,638 @@
+#menu-div {
+    height: 839px;
+    display: block;
+    border-right: 1px solid black;
+    margin-right: 60px;
+}
+
+.menu-button-div {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    min-width: 110px;
+}
+
+.menu-button {
+    border: none;
+    background: none;
+}
+
+.nickname-input-div {
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    display: inline-flex;
+}
+
+
+.create-lobby-div {
+    font-size: 30px;
+}
+
+.join-lobby-div {
+    font-size: 30px;
+}
+
+.lobby-nickname-input {
+    margin-left: 10px;
+    height: 25px;
+    width: 150px;
+    max-length: 20;
+}
+
+.highscore-nickname-input {
+    width: 200px;
+    margin: auto;
+}
+
+.highscore-nickname-button {
+    width: 200px;
+    margin: auto;
+}
+
+#track-name-div {
+    font-size: 13px;
+}
+
+#audio-player-div {
+    position: relative;
+    margin: auto;
+}
+
+.volume-div {
+    position: absolute;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+}
+
+.toggle input {
+    display: none;
+}
+
+.roundbutton:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    display: block;
+    background-color: white;
+    transition: all 0.3s;
+    background-color: lemonchiffon;
+}
+
+input:checked+.roundbutton:before {
+    background-color: white;
+    transform: translate(15px, 0);
+}
+
+#game-container {
+    display: inline-flex;
+    width: 95%;
+    border: 0px solid red;
+    height: 95%;
+}
+
+#highscoreSP-div {
+    float: left;
+    margin-left: 702px;
+    padding: 5px;
+    height: 839px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#highscore-div {
+    float: left;
+    margin-left: 50px;
+    padding: 5px;
+    height: 839px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.highscore-user-div {
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sp-game-div {
+    height: 786px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+#game-div {
+    float: left;
+    height: 786px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.slider-input-div {
+    font-size: 15px;
+    width: 200px;
+    margin: auto;
+    display: inline-flex;
+}
+
+.slider-input {
+    background-color: lemonchiffon;
+}
+
+.output-value-div {
+    margin-left: 5px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 200px;
+    height: 12px;
+    color: lemonchiffon;
+    border: 1px solid lemonchiffon;
+    background: #efefef;
+}
+
+.volume-input[type=range] {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    transform: rotate(270deg);
+    position: absolute;
+    top: -20px;
+    right: -80px;
+    appearance: none;
+    width: 15px;
+    width: 100px;
+    color: lemonchiffon;
+    border: 1px solid lemonchiffon;
+    background: #efefef;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 0%;
+    background: lemonchiffon;
+    cursor: pointer;
+}
+
+#opp-game-div {
+    float: right;
+    height: 786px;
+    width: 600px;
+    margin-left: 50px;
+    border: 1px solid black;
+}
+
+#score-div {
+    font-size: 30px;
+    height: 49px;
+    width: 598px;
+    border: 1px solid black;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#opp-score-div {
+    font-size: 30px;
+    height: 49px;
+    width: 598px;
+    border: 1px solid black;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#opp-score1-div {
+    font-size: 30px;
+    height: 49px;
+    width: 598px;
+    border: 1px solid black;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#score1-div {
+    font-size: 30px;
+    height: 49px;
+    width: 598px;
+    border: 1px solid black;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#button-div {
+    font-size: 30px;
+    height: 49px;
+    width: 598px;
+    border: 1px solid black;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#opp-button-div {
+    font-size: 30px;
+    height: 49px;
+    width: 598px;
+    border: 1px solid black;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#game-window-div {
+    height: 623px;
+    width: 598px;
+    border: 1px solid black;
+}
+
+
+#opp-game-window-div {
+    height: 623px;
+    width: 598px;
+    border: 1px solid black;
+}
+
+#problem-window-div {
+    height: 622px;
+    width: 596px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    transform: scaleY(-1);
+}
+
+
+#opp-problem-window-div {
+    height: 622px;
+    width: 596px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    transform: scaleY(-1);
+}
+
+.problem-div {
+    transform: scaleY(-1);
+    width: 596px;
+    height: 53px;
+    padding-bottom: 4px;
+    border: 1px solid black;
+}
+
+#spawn-problem-div {
+    transform: scaleY(-1);
+    width: 596px;
+    height: 53px;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+
+.sd-problem-div {
+    width: 596px;
+    height: 53px;
+    padding-bottom: 4px;
+    border: 1px solid black;
+}
+
+
+.opp-problem-div {
+    transform: scaleY(-1);
+    width: 596px;
+    height: 53px;
+    padding-bottom: 4px;
+    border: 1px solid black;
+}
+
+#spawn-button {
+    font-size: large;
+    height: 53px;
+    width: 594px;
+}
+
+#game-over-newgame-button {
+    font-size: large;
+    position: relative;
+    margin-inline: auto;
+    height: 50px;
+    width: 200px;
+}
+
+#next-level-button {
+    font-size: large;
+    position: relative;
+    margin-inline: auto;
+    height: 50px;
+    width: 200px;
+}
+
+.info-button {
+    font-size: medium;
+    position: relative;
+    margin: auto;
+    height: 40px;
+    width: 100px;
+}
+
+.lobby-users-div-button {
+    margin: auto;
+    width: 200px;
+    height: 40px;
+}
+
+#start-newgame-button {
+    font-size: large;
+    position: relative;
+    margin-inline: auto;
+    height: 50px;
+    width: 200px;
+}
+
+#lobby-button {
+    font-size: 20px;
+    position: relative;
+    margin-inline: auto;
+    height: 46px;
+    width: 200px;
+}
+
+.waiting-div {
+    font-size: 50px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    height: 620px;
+    width: 596px;
+    border: 1px solid black;
+    transform: scaleY(-1);
+}
+
+.game-over-div {
+    font-size: 70px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    height: 620px;
+    width: 596px;
+    border: 1px solid black;
+    transform: scaleY(-1);
+}
+
+.lobbies-div {
+    overflow: hidden;
+    height: 510px;
+}
+
+.info-div {
+    height: 520px;
+    font-size: 40px;
+}
+
+.lobby-info-div {
+    font-size: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 582px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: none;
+    margin: none;
+}
+
+.lobby-info-div:hover {
+    height: 46px;
+    width: 582px;
+    background: rgba(0, 0, 0, .1);
+    border: 1px solid black;
+}
+
+
+.lobby-name-div {
+    height: 60px;
+}
+
+.start-div {
+    font-size: 70px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    height: 622px;
+    width: 596px;
+    border: 1px solid black;
+    transform: scaleY(-1);
+    margin: 0px;
+}
+
+.lobby-div {
+    font-size: 40px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    height: 620px;
+    width: 596px;
+    border: 1px solid black;
+    transform: scaleY(-1);
+}
+
+.level-finished-div {
+    font-size: 70px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    height: 620px;
+    width: 596px;
+    border: 1px solid black;
+    transform: scaleY(-1);
+}
+
+.opp-connected-div {
+    font-size: 70px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    height: 620px;
+    width: 596px;
+    border: 1px solid black;
+    transform: scaleY(-1);
+}
+
+.sudden-death-div {
+    font-size: 70px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    position: absolute;
+    z-index: 2000;
+    height: 620px;
+    width: 596px;
+    border: 1px solid black;
+    transform: scaleY(-1);
+}
+
+.problem-bits-div {
+    display: flex;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+
+.sd-problem-bits-div {
+    display: flex;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.opp-problem-bits-div {
+    display: flex;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.bit-button {
+    height: 50px;
+    width: 50px;
+    margin-right: 4px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.bit-button-on {
+    height: 50px;
+    width: 50px;
+    margin-right: 4px;
+    background-color: lemonchiffon;
+    border: 1px solid black;
+}
+
+.bit-button:hover {
+    height: 50px;
+    width: 50px;
+    margin-right: 4px;
+    background-color: lemonchiffon;
+    border: 1px solid black;
+}
+
+.bit-button-on:hover {
+    height: 50px;
+    width: 50px;
+    margin-right: 4px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.bit-result-input {
+    vertical-align: top;
+    size: 3;
+    max-width: 3;
+    text-align: center;
+    font-size: 40px;
+    width: 90px;
+    height: 44px;
+}
+
+.nickname-input {
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    margin-inline: auto;
+    height: 40px;
+    width: 180px;
+}
+
+.join-lobby-input {
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    margin-inline: auto;
+    height: 40px;
+    width: 180px;
+}
+
+.bit-equal {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 14px;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#guide-div {
+    height: 58px;
+    width: 598px;
+    border: 1px solid black;
+}
+
+#guide-div1 {
+    height: 58px;
+    width: 596px;
+    border: 1px solid black;
+}
+
+#opp-guide-div {
+    height: 58px;
+    width: 598px;
+    border: 1px solid black;
+}
+
+#opp-guide-div1 {
+    height: 58px;
+    width: 596px;
+    border: 1px solid black;
+}
+
+.guide-bits-div {
+    margin-left: 1px;
+    display: flex;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+.guide-bit-button {
+    height: 50px;
+    width: 50px;
+    margin-right: 4px;
+    background-color: lemonchiffon;
+    border: 1px solid black;
+}

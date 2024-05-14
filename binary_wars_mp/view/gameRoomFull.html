@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Wars Multiplayer</title>
+    <link rel="stylesheet" href="/css/style_mp.css" />
+</head>
+
+<body>
+    <div id="game-container">
+        <div id="menu-div">
+            <div class="menu-button-div">
+                <button class="menu-button" onclick="showSingleplayer()">
+                    Binary Wars SP
+                </button>
+            </div>
+            <div class="menu-button-div">
+                <button class="menu-button" onclick="showMultiplayer()">
+                    Binary Wars MP
+                </button>
+            </div>
+        </div>
+        <div id="game-div">
+            <div id="score-div"></div>
+            <div id="score1-div"></div>
+            <div id="button-div"></div>
+            <div id="guide-div"></div>
+            <div id="game-window-div">
+                <div id="problem-window-div"></div>
+                <div id="guide-div1"></div>
+            </div>
+            <div id="opp-game-div">
+                <div id="opp-score-div"></div>
+                <div id="opp-score1-div"></div>
+                <div id="opp-button-div"></div>
+                <div id="opp-guide-div"></div>
+                <div id="opp-game-window-div">
+                    <div id="opp-problem-window-div"></div>
+                    <div id="opp-guide-div1"></div>
+                </div>
+            </div>
+            <div hidden>
+                <button onclick="startGame()">Start Game</button>
+                <button onclick="spawnProblem()">Spawn Bit</button>
+                <button onclick="spawnDecProblem()">Spawn Dec</button>
+                <button onclick="deleteProblemB()">Delete</button>
+                <button onclick="checkProblemResultArray()">Check Result Array</button>
+                <button onclick="stopGame()">Stop Game</button>
+                <div id="testarea"></div>
+            </div>
+            <script src="https://cdn.ably.com/lib/ably.min-1.js"></script>
+            <script src="/gameRoomFull.js"></script>
+</body>
+
+</html>
